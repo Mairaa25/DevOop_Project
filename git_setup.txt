@@ -1,0 +1,16 @@
+# DevOop_Project Git Workflow
+
+Step 1: Initialize Git Repository
+mkdir DevOop_Project
+cd DevOop_Project
+git init
+
+Step 2: Link Local Repository to GitHub
+git remote add origin <your-repo-url>
+
+Step 3: Set Up Branches
+git branch -M main
+git checkout -b develop
+git checkout -b feature/database-servicee
+git checkout -b feature/cache-service
+
