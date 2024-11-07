@@ -14,3 +14,18 @@ git checkout -b develop
 git checkout -b feature/database-servicee
 git checkout -b feature/cache-service
 
+Step 4: create compose.yml file 
+ write database and cache command insite it
+
+Step 5: merge into develop branch
+   go to develop branch
+   git checkout develop
+   git merge feature\cache-service
+
+   Step 6: push develop and main branch
+
+   Step 7:  git setup file update 
+
+   step 8:
+
+
